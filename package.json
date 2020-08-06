@@ -1,0 +1,35 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "Fabian Gonzalez's Portfolio API v3 using Node.js",
+  "main": "index.js",
+  "author": "Fabian Gonzalez",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules src/app.js",
+    "dev": "nodemon src/app.js --exec babel-node",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.16.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.16",
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "babel-jest": "^26.2.2",
+    "graphql-markdown": "^5.2.0",
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
